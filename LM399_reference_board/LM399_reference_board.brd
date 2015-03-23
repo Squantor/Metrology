@@ -3438,6 +3438,33 @@ Linear technology device library</description>
 <wire x1="-4.4" y1="3.5" x2="-3.5" y2="4.4" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="4.4" x2="-3.3" y2="4.2" width="0.127" layer="21"/>
 </package>
+<package name="MS-MSOP10">
+<wire x1="3.175" y1="-1.905" x2="-3.175" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="-3.175" y1="-1.905" x2="-3.175" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="-3.175" y1="1.905" x2="3.175" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="3.175" y1="1.905" x2="3.175" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="51"/>
+<text x="-2.8575" y="2.54" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4925" y="-3.81" size="1.27" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-2.175" y="1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-2.175" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-2.175" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-2.175" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-2.175" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="6" x="2.175" y="-1" dx="0.9" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="2.175" y="-0.5" dx="0.9" dy="0.3" layer="1" rot="R180"/>
+<smd name="8" x="2.175" y="0" dx="0.9" dy="0.3" layer="1" rot="R180"/>
+<smd name="9" x="2.175" y="0.5" dx="0.9" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="2.175" y="1" dx="0.9" dy="0.3" layer="1" rot="R180"/>
+<circle x="-0.9525" y="0.9525" radius="0.3175" width="0.127" layer="52"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="SquantorRCL">
@@ -4549,6 +4576,66 @@ type 0309, grid 12.5 mm</description>
 <rectangle x1="4.318" y1="-0.3048" x2="5.1816" y2="0.3048" layer="21"/>
 <rectangle x1="-5.1816" y1="-0.3048" x2="-4.318" y2="0.3048" layer="21"/>
 </package>
+<package name="0207/10">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 10 mm</description>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.6096" layer="51"/>
+<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
+<text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
+<rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
+</package>
+<package name="RTRIMT93YA">
+<description>&lt;b&gt;Trimm resistor&lt;/b&gt; VISHAY&lt;p&gt;
+Cermet, abgedichtet nach IP67</description>
+<wire x1="2.15" y1="-4.75" x2="2.15" y2="4.75" width="0.254" layer="21"/>
+<wire x1="2.15" y1="4.75" x2="-2.55" y2="4.75" width="0.254" layer="21"/>
+<wire x1="-2.55" y1="4.75" x2="-2.55" y2="-4.75" width="0.254" layer="21"/>
+<wire x1="-2.55" y1="-4.75" x2="2.15" y2="-4.75" width="0.254" layer="21"/>
+<wire x1="-0.75" y1="2.6" x2="-0.3" y2="3.3" width="0.1524" layer="21" curve="-311.390901"/>
+<wire x1="-0.75" y1="2.6" x2="-0.3" y2="3.3" width="0.1524" layer="51" curve="48.609099"/>
+<pad name="1" x="0" y="-2.54" drill="0.6096"/>
+<pad name="2" x="0" y="0" drill="0.6096"/>
+<pad name="3" x="0" y="2.54" drill="0.6096"/>
+<text x="-3.04" y="-4.89" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.01" y="-4.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.45" y1="2.5" x2="-1.15" y2="4.4" layer="21"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -4740,11 +4827,19 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="ohw-logo" package="OSHW_8X350_NOTEXT" value="" x="25" y="2"/>
+<element name="U$1" library="ohw-logo" package="OSHW_8X350_NOTEXT" value="" x="16.11" y="0.73"/>
 <element name="U$2" library="SquantorLinearTechnology" package="H4-TO46-4PIN" value="LM399" x="21.59" y="21.59" rot="R180"/>
 <element name="C1" library="SquantorRCL" package="SMC_D" value="10u" x="12.7" y="19.05" rot="R90"/>
-<element name="R1" library="SquantorRCL" package="R1206" value="" x="15.24" y="12.7" rot="R180"/>
-<element name="R2" library="SquantorRCL" package="0309/12" value="" x="15.24" y="12.7" rot="R180"/>
+<element name="R1" library="SquantorRCL" package="R1206" value="inrush" x="15.24" y="12.7" rot="R180"/>
+<element name="R2" library="SquantorRCL" package="0309/12" value="inrush" x="15.24" y="12.7" rot="R180"/>
+<element name="U$3" library="SquantorLinearTechnology" package="MS-MSOP10" value="LTC2057" x="21.59" y="33.02" rot="R90"/>
+<element name="R3" library="SquantorRCL" package="0207/10" value="220k" x="30.48" y="16.51" rot="R270"/>
+<element name="R4" library="SquantorRCL" package="0207/10" value="5k" x="30.48" y="29.21" rot="R270"/>
+<element name="R5" library="SquantorRCL" package="0207/10" value="8.8k" x="17.78" y="34.29" rot="R90"/>
+<element name="R6" library="SquantorRCL" package="0207/10" value="19k" x="13.97" y="34.29" rot="R270"/>
+<element name="R7" library="SquantorRCL" package="RTRIMT93YA" value="" x="8.89" y="34.29" rot="R180"/>
+<element name="C2" library="SquantorRCL" package="C0603" value="100n" x="26.67" y="33.02" rot="R90"/>
+<element name="C3" library="SquantorRCL" package="SMC_D" value="10u" x="38.1" y="30.48" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -4763,9 +4858,19 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="3"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="C1" pad="-"/>
-<wire x1="20.32" y1="21.59" x2="21.59" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="21.59" x2="13.31" y2="21.59" width="0.6096" layer="1"/>
 <wire x1="13.31" y1="21.59" x2="12.7" y2="22.2" width="0.6096" layer="1"/>
+<contactref element="U$3" pad="5"/>
+<contactref element="R7" pad="3"/>
+<contactref element="R7" pad="2"/>
+<contactref element="C2" pad="1"/>
+<contactref element="C3" pad="-"/>
+<wire x1="26.67" y1="32.17" x2="38.1" y2="27.33" width="0" layer="19" extent="1-1"/>
+<wire x1="22.59" y1="30.845" x2="26.67" y2="32.17" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="22.86" x2="22.59" y2="30.845" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="21.59" x2="21.59" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="31.75" x2="12.7" y2="22.2" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="34.29" x2="8.89" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C1" pad="+"/>
@@ -4783,6 +4888,46 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <wire x1="8.89" y1="12.7" x2="13.818" y2="12.7" width="0.6096" layer="1"/>
+<contactref element="R3" pad="2"/>
+<contactref element="U$3" pad="8"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C3" pad="+"/>
+<wire x1="26.67" y1="33.87" x2="38.1" y2="33.63" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="35.195" x2="26.67" y2="33.87" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="11.43" x2="26.67" y2="33.87" width="0" layer="19" extent="1-1"/>
+<wire x1="13.818" y1="12.7" x2="30.48" y2="11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VZENER">
+<contactref element="R3" pad="1"/>
+<contactref element="U$2" pad="1"/>
+<contactref element="U$3" pad="3"/>
+<contactref element="R4" pad="2"/>
+<wire x1="30.48" y1="21.59" x2="30.48" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="21.59" x2="30.48" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="30.845" x2="22.86" y2="21.59" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="U$3" pad="6"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R4" pad="1"/>
+<wire x1="22.59" y1="35.195" x2="30.48" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="39.37" x2="22.59" y2="35.195" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="R5" pad="1"/>
+<contactref element="R6" pad="2"/>
+<contactref element="U$3" pad="2"/>
+<contactref element="U$3" pad="1"/>
+<contactref element="U$3" pad="4"/>
+<wire x1="20.59" y1="30.845" x2="21.09" y2="30.845" width="0" layer="19" extent="1-1"/>
+<wire x1="22.09" y1="30.845" x2="21.09" y2="30.845" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="29.21" x2="20.59" y2="30.845" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="29.21" x2="17.78" y2="29.21" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="R6" pad="1"/>
+<contactref element="R7" pad="1"/>
+<wire x1="8.89" y1="36.83" x2="13.97" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
