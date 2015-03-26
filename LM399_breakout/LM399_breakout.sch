@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12499,10 +12499,10 @@ Connectors used in various projects, usually sourced from local dutch and chines
 <part name="R1" library="SquantorRCL" deviceset="R-EU_" device="0207/10" value="inrush"/>
 <part name="P+2" library="supply1" deviceset="+15V" device=""/>
 <part name="R2" library="SquantorRCL" deviceset="R-EU_" device="0207/10" value="220k"/>
-<part name="JP1" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL"/>
-<part name="JP2" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL"/>
-<part name="JP4" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL"/>
-<part name="JP3" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL"/>
+<part name="JP1" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL" value="VCC"/>
+<part name="JP2" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL" value="GND"/>
+<part name="JP4" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL" value="GND"/>
+<part name="JP3" library="SquantorConnectors" deviceset="PINHD-1X3" device="TH_SMALL" value="Zener"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+15V" device=""/>
 <part name="C1" library="SquantorRCL" deviceset="C-EU" device="C0805" value="1u"/>
@@ -12706,6 +12706,13 @@ Connectors used in various projects, usually sourced from local dutch and chines
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,88.9,54.3348,R3,,,,,"/>
+<approved hash="113,1,88.9,41.6348,R4,,,,,"/>
+<approved hash="113,1,97.8736,46.99,C3,,,,,"/>
+<approved hash="113,1,97.8736,34.29,C4,,,,,"/>
+<approved hash="113,1,104.14,54.3348,R6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
