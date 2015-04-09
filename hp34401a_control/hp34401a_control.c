@@ -5,6 +5,8 @@
 #include <unistd.h>
 #include <getopt.h>
 
+#include "results.h"
+
 int main(int argc, char* argv[])
 {
     int c;
