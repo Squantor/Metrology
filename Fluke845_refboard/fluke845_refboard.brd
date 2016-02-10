@@ -133,7 +133,7 @@
 </layers>
 <board>
 <plain>
-<text x="7.62" y="2.54" size="1.016" layer="21" font="vector">V2015.12.09</text>
+<text x="7.62" y="2.54" size="1.016" layer="21" font="vector">V2016.02.10</text>
 <text x="1.27" y="8.89" size="1.778" layer="21" font="vector">+15V</text>
 <text x="1.27" y="19.685" size="1.778" layer="21" font="vector">-15V</text>
 <text x="36.83" y="19.685" size="1.778" layer="21" font="vector">VREF-</text>
@@ -4797,11 +4797,11 @@ design rules under a new name.</description>
 <element name="U$1" library="SquantorPCBOutline" package="SUPERTRONIC_37_51MM" value="SUPERTRONIC37_51" x="0" y="0"/>
 <element name="LOGO1" library="ohw-logo" package="OSHW_8X200_NOTEXT" value="OSHW_LOGO_8MILX0200-NT" x="14.605" y="24.765"/>
 <element name="JP1" library="SquantorConnectors" package="1X03_SMALL" value="" x="10.16" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.6388" y="14.5288" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="10.7188" y="19.6088" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="13.335" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP2" library="SquantorConnectors" package="1X03_SMALL" value="" x="35.56" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.0238" y="14.5288" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="30.4038" y="14.5288" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="38.735" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$2" library="SquantorLinearTechnology" package="TO92" value="LT1004" x="17.78" y="12.7" smashed="yes" rot="R180">
