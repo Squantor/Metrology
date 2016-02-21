@@ -8,15 +8,15 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="/home/abilos/programs/eagle-7.4.0/lbr/supply1.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorLinearTechnology.lbr"
-UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorConnectors.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorLinearTechnology.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorPCBOutline.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 0 599 399"
+Loc="0 25 599 424"
 State=2
 Number=1
 File="PB1_LT1021_reference.sch"
@@ -59,11 +59,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -16.256 -14.986 168.656 103.886"
 Sheet="1"
 
 [Win_2]
 Type="Board Editor"
-Loc="0 0 599 399"
+Loc="0 25 599 424"
 State=2
 Number=2
 File="PB1_LT1021_reference.brd"
@@ -109,7 +110,7 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="206 111 1270 960"
+Loc="307 219 1371 944"
 State=2
 Number=0
 
