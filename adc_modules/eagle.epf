@@ -22,14 +22,15 @@ UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorRCL.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorTransformer.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorUsb.lbr"
 UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/ohw-logo.lbr"
+UsedLibrary="/home/abilos/projects/public/SquantorEagleLib/SquantorMicrochip.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 25 945 570"
+Loc="0 0 599 399"
 State=2
 Number=1
-File="ltc2400_adc_module.sch"
-View="-1.86669 -9.94928 126.544 72.6007"
+File="mcp3551_adc_module.sch"
+View="3.90756 -2.21924 138.708 49.06"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -68,16 +69,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -1.86669 -9.94928 126.544 72.6007"
+Views=" 1: 3.90756 -2.21924 138.708 49.06"
 Sheet="1"
 
 [Win_2]
 Type="Board Editor"
-Loc="0 25 1260 663"
-State=2
+Loc="0 25 1365 743"
+State=1
 Number=2
-File="ltc2400_adc_module.brd"
-View="0.142228 -18.7036 72.3645 39.0742"
+File="mcp3551_adc_module.brd"
+View="6.45784 2.10293 25.3894 26.1395"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -115,11 +116,11 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=1
 
 [Win_3]
 Type="Control Panel"
-Loc="0 25 1363 656"
+Loc="0 0 694 471"
 State=2
 Number=0
 
