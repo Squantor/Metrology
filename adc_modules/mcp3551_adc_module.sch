@@ -5904,9 +5904,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pad name="P$18" x="11.43" y="6.35" drill="1.5" diameter="1.8" shape="octagon"/>
 <pad name="P$19" x="11.43" y="8.89" drill="1.5" diameter="1.8" shape="octagon"/>
 <pad name="P$20" x="11.43" y="11.43" drill="1.5" diameter="1.8" shape="octagon"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0" layer="20"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0" layer="20"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0" layer="20"/>
+<wire x1="-13.335" y1="12.7" x2="-13.335" y2="-13.335" width="0" layer="20"/>
+<wire x1="-13.335" y1="-13.335" x2="13.335" y2="-13.335" width="0" layer="20"/>
+<wire x1="13.335" y1="-13.335" x2="13.335" y2="12.7" width="0" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -6171,6 +6171,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="R5" library="SquantorRCL" deviceset="R-EU_" device="R0805" value="5.1k"/>
 <part name="R6" library="SquantorRCL" deviceset="R-EU_" device="R0805" value="5.1k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="C2" library="SquantorRCL" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6193,6 +6195,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="R5" gate="G$1" x="17.78" y="10.16"/>
 <instance part="R6" gate="G$1" x="17.78" y="7.62"/>
 <instance part="GND6" gate="1" x="22.86" y="0"/>
+<instance part="C2" gate="G$1" x="116.84" y="55.88" rot="R90"/>
+<instance part="GND7" gate="1" x="111.76" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6247,6 +6251,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="U$1" gate="G$1" pin="V-@10"/>
 <wire x1="22.86" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -6273,6 +6281,11 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="U$1" gate="G$1" pin="V+@7"/>
 <wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <junction x="22.86" y="17.78"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_VIN-" class="0">

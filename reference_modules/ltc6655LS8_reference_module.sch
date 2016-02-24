@@ -6131,19 +6131,18 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <parts>
 <part name="U$1" library="SquantorLinearTechnology" deviceset="LTC6655" device="LS8_ELONG"/>
 <part name="C1" library="SquantorRCL" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C4" library="SquantorRCL" deviceset="C-EU" device="C2824W" value="2.2u"/>
-<part name="C5" library="SquantorRCL" deviceset="C-EU" device="C2824W" value="2.2u"/>
+<part name="C5" library="SquantorRCL" deviceset="C-EU" device="050-075X075" value="6.8u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="SquantorRCL" deviceset="R-EU_" device="R1206"/>
 <part name="R2" library="SquantorRCL" deviceset="R-EU_" device="R0805" value="ferrite"/>
 <part name="C3" library="SquantorRCL" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="SquantorPCBOutline" deviceset="METROLOGY_MODULE" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6152,19 +6151,18 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="81.28"/>
 <instance part="C1" gate="G$1" x="71.12" y="129.54" rot="R270"/>
-<instance part="C4" gate="G$1" x="71.12" y="114.3" rot="R270"/>
-<instance part="C5" gate="G$1" x="71.12" y="106.68" rot="R270"/>
+<instance part="C5" gate="G$1" x="71.12" y="114.3" rot="R270"/>
 <instance part="GND1" gate="1" x="71.12" y="63.5"/>
 <instance part="GND2" gate="1" x="96.52" y="76.2" rot="R90"/>
 <instance part="GND3" gate="1" x="48.26" y="76.2" rot="R270"/>
 <instance part="GND4" gate="1" x="71.12" y="101.6" rot="R180"/>
-<instance part="R1" gate="G$1" x="106.68" y="116.84" rot="R90"/>
 <instance part="R2" gate="G$1" x="38.1" y="33.02" rot="R90"/>
 <instance part="C3" gate="G$1" x="45.72" y="38.1" rot="R270"/>
 <instance part="GND5" gate="1" x="50.8" y="38.1" rot="R90"/>
 <instance part="U$2" gate="G$1" x="63.5" y="12.7"/>
 <instance part="GND6" gate="1" x="22.86" y="22.86" rot="R270"/>
 <instance part="GND7" gate="1" x="22.86" y="12.7" rot="R270"/>
+<instance part="GND8" gate="1" x="60.96" y="114.3" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6201,11 +6199,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="91.44" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="93.98" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
-<label x="106.68" y="124.46" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="VREF_OUT" class="0">
 <segment>
@@ -6220,16 +6213,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="114.3" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 <label x="76.2" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="111.76" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="106.68" y="109.22" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6254,11 +6239,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="114.3" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<label x="63.5" y="114.3" size="1.778" layer="95" rot="R180"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
