@@ -4491,6 +4491,28 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
 <rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
 </package>
+<package name="C050-085X075W">
+<description>&lt;b&gt;CAPACITOR WIMA spec&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 7.2 x 8.5 mm &lt;br&gt;</description>
+<wire x1="-1.524" y1="0" x2="-0.4572" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="0" x2="-0.4572" y2="0.762" width="0.4064" layer="21"/>
+<wire x1="-0.4572" y1="0" x2="-0.4572" y2="-0.762" width="0.4064" layer="21"/>
+<wire x1="0.4318" y1="0.762" x2="0.4318" y2="0" width="0.4064" layer="21"/>
+<wire x1="0.4318" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="0" x2="0.4318" y2="-0.762" width="0.4064" layer="21"/>
+<wire x1="-3.683" y1="3.929" x2="-3.683" y2="-3.929" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.183" x2="3.429" y2="-4.183" width="0.1524" layer="21"/>
+<wire x1="3.683" y1="-3.929" x2="3.683" y2="3.929" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="4.183" x2="-3.429" y2="4.183" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="4.183" x2="3.683" y2="3.929" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.429" y1="-4.183" x2="3.683" y2="-3.929" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="-3.929" x2="-3.429" y2="-4.183" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="3.929" x2="-3.429" y2="4.183" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<text x="-3.429" y="4.064" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.175" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -5215,6 +5237,15 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </technologies>
 </device>
 <device name="C2824W" package="C2824W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="050-085X075W" package="C050-085X075W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6131,7 +6162,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <parts>
 <part name="U$1" library="SquantorLinearTechnology" deviceset="LTC6655" device="LS8_ELONG"/>
 <part name="C1" library="SquantorRCL" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C5" library="SquantorRCL" deviceset="C-EU" device="050-075X075" value="6.8u"/>
+<part name="C5" library="SquantorRCL" deviceset="C-EU" device="050-085X075W" value="6.8u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
