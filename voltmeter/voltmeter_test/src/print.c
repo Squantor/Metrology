@@ -2,8 +2,6 @@
 #include <board_init.h>
 #include <print.h>
 
-
-
 const uint8_t hextable[] = "0123456789ABCDEF";
 
 void print_digit(uint8_t data)

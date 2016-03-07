@@ -9,10 +9,6 @@
 /* pin defines */
 #define	LED_PORT			0
 #define	LED_PIN				7
-#define	MCP3553_CE_PORT		0
-#define	MCP3553_CE_PIN		3
-#define	MCP3553_RDY_PORT	0
-#define	MCP3553_RDY_PIN		8
 
 /* uart settings*/
 // Transmit and receive ring buffer sizes
