@@ -24,5 +24,12 @@
 #define	SSP_SPEED		100000
 #define	SSP_DATA_BITS	SSP_BITS_8
 
+/* MCP355X pins */
+#define	MCP355X_CE_PORT		0
+#define	MCP355X_CE_PIN		3
+#define	MCP355X_SDO_PORT	0
+#define	MCP355X_SDO_PIN		8
+#define	MCP355X_SCK_PORT	0
+#define	MCP355X_SCK_PIN		6
 
 #endif
