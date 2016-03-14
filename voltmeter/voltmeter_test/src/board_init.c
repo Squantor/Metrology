@@ -43,11 +43,12 @@ void board_init(void)
 	Chip_I2C_SetClockRate(I2C0, I2C_SPEED);
 	Chip_I2C_SetMasterEventHandler(I2C0, Chip_I2C_EventHandler);
 	// setup SPI
+	Chip_SSP_Enable(LPC_SSP0);
 	Chip_SSP_SetBitRate(LPC_SSP0, SSP_SPEED);
 	Chip_SSP_SetMaster(LPC_SSP0, true);
 	Chip_SSP_SetFormat(LPC_SSP0, SSP_DATA_BITS, SSP_FRAMEFORMAT_SPI, SSP_CLOCK_MODE0);
     // setup the systick timer
-	SysTick_Config(SystemCoreClock / 4);
+	SysTick_Config(SystemCoreClock / 100);
 	// setup nvic
 	NVIC_SetPriority(UART0_IRQn, 1);
 	NVIC_EnableIRQ(UART0_IRQn);
