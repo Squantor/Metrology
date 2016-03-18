@@ -61,6 +61,19 @@ void print_dec_u32(uint32_t data)
 	}
 }
 
+void print_bin_u32(uint32_t data)
+{
+	uint32_t mask = 0x80000000;
+	while(mask != 0)
+	{
+		if(mask & data)
+			print_digit(1);
+		else
+			print_digit(0);
+		mask = mask >> 1;
+	}
+}
+
 void printuart_char(uint8_t c)
 {
 	PRINT(&c, 1);
