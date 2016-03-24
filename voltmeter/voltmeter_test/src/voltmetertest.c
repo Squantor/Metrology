@@ -6,7 +6,7 @@
 #include <print.h>
 
 // how much is one picovolt per LSB
-#define	NV_LSB		(1192060)
+#define	NV_LSB		(1192188)
 #define	MAX_SAMPLES	16
 
 const char str_reading[] = "reading\r\n";

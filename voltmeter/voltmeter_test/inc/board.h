@@ -21,7 +21,8 @@
 #define	I2C_SPEED		100000
 
 /* SPI settings*/
-#define	SSP_SPEED		100000
+// reduced speed due to optoisolation
+#define	SSP_SPEED		50000
 #define	SSP_DATA_BITS	SSP_BITS_8
 
 /* MCP355X pins */
