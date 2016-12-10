@@ -1,4 +1,4 @@
-update=za 10 dec 2016 14:45:40 CET
+update=za 10 dec 2016 15:39:18 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=SquantorMicrochip
+LibName31=SquantorConnectors
