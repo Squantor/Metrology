@@ -339,16 +339,16 @@ Wire Wire Line
 Wire Wire Line
 	3000 3550 3000 3500
 Wire Wire Line
-	2050 2500 2150 2500
+	2050 2500 2100 2500
 $Comp
 L GND #PWR09
 U 1 1 584C38A2
-P 2150 2500
-F 0 "#PWR09" H 2150 2250 50  0001 C CNN
-F 1 "GND" H 2150 2350 50  0000 C CNN
-F 2 "" H 2150 2500 50  0000 C CNN
-F 3 "" H 2150 2500 50  0000 C CNN
-	1    2150 2500
+P 2100 2500
+F 0 "#PWR09" H 2100 2250 50  0001 C CNN
+F 1 "GND" H 2100 2350 50  0000 C CNN
+F 2 "" H 2100 2500 50  0000 C CNN
+F 3 "" H 2100 2500 50  0000 C CNN
+	1    2100 2500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -386,7 +386,7 @@ $EndComp
 Wire Wire Line
 	2100 2200 2050 2200
 Wire Wire Line
-	2400 2100 2050 2100
+	2050 2100 2400 2100
 Wire Wire Line
 	2050 2300 2500 2300
 Wire Wire Line
@@ -492,7 +492,7 @@ U 1 1 584C58EB
 P 1850 2250
 F 0 "J1" H 1800 2650 60  0000 C CNN
 F 1 "PINS_1X6" H 1850 1850 60  0000 C CNN
-F 2 "SquantorConnectors:Header-2.54-1X06-H1.5" H 1850 2500 60  0001 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X06-H0.8" H 1850 2500 60  0001 C CNN
 F 3 "" H 1850 2500 60  0001 C CNN
 	1    1850 2250
 	1    0    0    -1  
@@ -503,9 +503,26 @@ U 1 1 584C5985
 P 5700 2150
 F 0 "J2" H 5650 2550 60  0000 C CNN
 F 1 "PINS_1X6" H 5700 1750 60  0000 C CNN
-F 2 "SquantorConnectors:Header-2.54-1X06-H1.5" H 5700 2400 60  0001 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X06-H0.8" H 5700 2400 60  0001 C CNN
 F 3 "" H 5700 2400 60  0001 C CNN
 	1    5700 2150
 	-1   0    0    1   
 $EndComp
+Text Label 2350 2000 0    60   ~ 0
+Vref_in
+Wire Wire Line
+	2350 2000 2350 2100
+Connection ~ 2350 2100
+Text Label 2800 2100 3    60   ~ 0
+Vref_filt
+Text Label 3300 2100 0    60   ~ 0
+Vref
+Text Label 3000 2750 0    60   ~ 0
+Vin+filt
+Text Label 3000 3150 0    60   ~ 0
+Vin-_filt
+Text Label 2500 2600 0    60   ~ 0
+Vin+_in
+Text Label 2400 2950 0    60   ~ 0
+Vin-_in
 $EndSCHEMATC
