@@ -1,1 +1,145 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SquantorConnectors
+LIBS:SquantorLinearTechnology
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 584C7B15
+P 1450 1600
+F 0 "#PWR01" H 1450 1350 50  0001 C CNN
+F 1 "GND" H 1450 1450 50  0000 C CNN
+F 2 "" H 1450 1600 50  0000 C CNN
+F 3 "" H 1450 1600 50  0000 C CNN
+	1    1450 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LTC6655LS8 M1
+U 1 1 584C7B7B
+P 2700 1400
+F 0 "M1" H 2700 1400 45  0001 C CNN
+F 1 "LTC6655LS8" H 2700 1400 45  0001 C CNN
+F 2 "SquantorLinearTechnology:SquantorLinearTechnology-LS8" H 2730 1550 20  0001 C CNN
+F 3 "" H 2700 1400 60  0001 C CNN
+	1    2700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 584C7FFC
+P 2700 1750
+F 0 "#PWR02" H 2700 1500 50  0001 C CNN
+F 1 "GND" H 2700 1600 50  0000 C CNN
+F 2 "" H 2700 1750 50  0000 C CNN
+F 3 "" H 2700 1750 50  0000 C CNN
+	1    2700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 584C8007
+P 2200 1500
+F 0 "#PWR03" H 2200 1250 50  0001 C CNN
+F 1 "GND" H 2200 1350 50  0000 C CNN
+F 2 "" H 2200 1500 50  0000 C CNN
+F 3 "" H 2200 1500 50  0000 C CNN
+	1    2200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 584C801C
+P 3200 1500
+F 0 "#PWR04" H 3200 1250 50  0001 C CNN
+F 1 "GND" H 3200 1350 50  0000 C CNN
+F 2 "" H 3200 1500 50  0000 C CNN
+F 3 "" H 3200 1500 50  0000 C CNN
+	1    3200 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 584C8027
+P 2700 1050
+F 0 "#PWR05" H 2700 800 50  0001 C CNN
+F 1 "GND" H 2700 900 50  0000 C CNN
+F 2 "" H 2700 1050 50  0000 C CNN
+F 3 "" H 2700 1050 50  0000 C CNN
+	1    2700 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 1500 2250 1500
+Wire Wire Line
+	2700 1100 2700 1050
+Wire Wire Line
+	2700 1750 2700 1700
+Wire Wire Line
+	3200 1500 3150 1500
+$Comp
+L PINS_1X6 J1
+U 1 1 584C8060
+P 1200 1350
+F 0 "J1" H 1150 1750 60  0000 C CNN
+F 1 "PINS_1X6" H 1200 950 60  0000 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X06-H0.8" H 1200 1600 60  0001 C CNN
+F 3 "" H 1200 1600 60  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINS_1X6 J2
+U 1 1 584C80AF
+P 4100 1350
+F 0 "J2" H 4050 1750 60  0000 C CNN
+F 1 "PINS_1X6" H 4100 950 60  0000 C CNN
+F 2 "SquantorConnectors:Header-2.54-1X06-H0.8" H 4100 1600 60  0001 C CNN
+F 3 "" H 4100 1600 60  0001 C CNN
+	1    4100 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 1600 1400 1600
+$EndSCHEMATC

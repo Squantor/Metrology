@@ -1,4 +1,4 @@
-update=za 10 dec 2016 14:47:32 CET
+update=za 10 dec 2016 23:31:51 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/abilos/projects/public/SquantorPcbComponentLibrary/kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +56,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=SquantorConnectors
+LibName31=SquantorLinearTechnology
 [general]
 version=1
