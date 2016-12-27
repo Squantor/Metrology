@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:REF50XX_module-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:SquantorConnectors
 LIBS:SquantorTexasInstruments
+LIBS:REF50XX_module-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -227,7 +229,7 @@ F 3 "" H 3100 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-REF50XX_module RV1
 U 1 1 585464D5
 P 3500 2100
 F 0 "RV1" H 3500 2020 50  0000 C CNN
