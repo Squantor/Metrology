@@ -196,8 +196,6 @@ Wire Wire Line
 Connection ~ 1500 2800
 Wire Wire Line
 	3400 2900 3250 2900
-Wire Wire Line
-	3400 2600 3250 2600
 Text GLabel 3250 2900 0    60   Input ~ 0
 Vin
 Text GLabel 3250 2600 0    60   Input ~ 0
@@ -338,4 +336,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 3000 1500 3000
 Connection ~ 1500 3000
+Wire Wire Line
+	3400 2600 3250 2600
 $EndSCHEMATC
