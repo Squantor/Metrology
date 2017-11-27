@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 143.609505 97.866906 152.473829 108.0274)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 2)
@@ -226,5 +226,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
   )
+
+  (gr_line (start 100 150) (end 100 50) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 200 150) (end 100 150) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 200 50) (end 200 150) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 100 50) (end 200 50) (layer Edge.Cuts) (width 0.15))
 
 )
