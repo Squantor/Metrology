@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OSH_Park_2_layer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,4 +35,229 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    850  7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C14DC59
+P 950 1350
+F 0 "J?" H 870 1125 50  0000 C CNN
+F 1 "Conn_01x01" H 870 1216 50  0000 C CNN
+F 2 "" H 950 1350 50  0001 C CNN
+F 3 "~" H 950 1350 50  0001 C CNN
+	1    950  1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C14DD34
+P 950 1750
+F 0 "J?" H 870 1525 50  0000 C CNN
+F 1 "Conn_01x01" H 870 1616 50  0000 C CNN
+F 2 "" H 950 1750 50  0001 C CNN
+F 3 "~" H 950 1750 50  0001 C CNN
+	1    950  1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14DD89
+P 1200 1350
+F 0 "#PWR?" H 1200 1100 50  0001 C CNN
+F 1 "GND" V 1205 1222 50  0000 R CNN
+F 2 "" H 1200 1350 50  0001 C CNN
+F 3 "" H 1200 1350 50  0001 C CNN
+	1    1200 1350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1150 1350 1200 1350
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C14DEA6
+P 950 2200
+F 0 "J?" H 870 1875 50  0000 C CNN
+F 1 "Conn_01x03" H 870 1966 50  0000 C CNN
+F 2 "" H 950 2200 50  0001 C CNN
+F 3 "~" H 950 2200 50  0001 C CNN
+	1    950  2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C14DF05
+P 950 2650
+F 0 "J?" H 1030 2600 50  0000 L CNN
+F 1 "Conn_01x03" H 1030 2691 50  0000 L CNN
+F 2 "" H 950 2650 50  0001 C CNN
+F 3 "~" H 950 2650 50  0001 C CNN
+	1    950  2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14E194
+P 1200 2300
+F 0 "#PWR?" H 1200 2050 50  0001 C CNN
+F 1 "GND" V 1205 2172 50  0000 R CNN
+F 2 "" H 1200 2300 50  0001 C CNN
+F 3 "" H 1200 2300 50  0001 C CNN
+	1    1200 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14E1AD
+P 1200 2750
+F 0 "#PWR?" H 1200 2500 50  0001 C CNN
+F 1 "GND" V 1205 2622 50  0000 R CNN
+F 2 "" H 1200 2750 50  0001 C CNN
+F 3 "" H 1200 2750 50  0001 C CNN
+	1    1200 2750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1150 2300 1200 2300
+Wire Wire Line
+	1200 2750 1150 2750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5C14E46A
+P 4350 1900
+F 0 "J?" H 4400 2317 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4400 2226 50  0000 C CNN
+F 2 "" H 4350 1900 50  0001 C CNN
+F 3 "~" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14E4F7
+P 4700 2150
+F 0 "#PWR?" H 4700 1900 50  0001 C CNN
+F 1 "GND" H 4705 1977 50  0000 C CNN
+F 2 "" H 4700 2150 50  0001 C CNN
+F 3 "" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1700 4700 1700
+Wire Wire Line
+	4700 1700 4700 1800
+Wire Wire Line
+	4650 2100 4700 2100
+Connection ~ 4700 2100
+Wire Wire Line
+	4700 2100 4700 2150
+Wire Wire Line
+	4650 2000 4700 2000
+Connection ~ 4700 2000
+Wire Wire Line
+	4700 2000 4700 2100
+Wire Wire Line
+	4650 1900 4700 1900
+Connection ~ 4700 1900
+Wire Wire Line
+	4700 1900 4700 2000
+Wire Wire Line
+	4650 1800 4700 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	4700 1800 4700 1900
+Wire Wire Line
+	4150 1700 4100 1700
+Wire Wire Line
+	4150 1800 4100 1800
+Wire Wire Line
+	4150 1900 4100 1900
+Wire Wire Line
+	4150 2000 4100 2000
+Wire Wire Line
+	4150 2100 4100 2100
+Text Label 4100 1900 2    50   ~ 0
+SIGNAL_0
+Text Label 4100 2000 2    50   ~ 0
+SIGNAL_1
+Text Label 4100 2100 2    50   ~ 0
+SIGNAL_2
+Text Label 4100 1700 2    50   ~ 0
+POWER_0
+Text Label 4100 1800 2    50   ~ 0
+POWER_1
+Wire Wire Line
+	1150 1750 1200 1750
+Text Label 1200 1750 0    50   ~ 0
+SIGNAL
+Text Label 1200 2100 0    50   ~ 0
+POWER_0
+Text Label 1200 2550 0    50   ~ 0
+POWER_1
+Wire Wire Line
+	1150 2100 1200 2100
+Wire Wire Line
+	1150 2550 1200 2550
+$Comp
+L Device:C C?
+U 1 1 5C14F5BC
+P 1800 2200
+F 0 "C?" H 1915 2246 50  0000 L CNN
+F 1 "C" H 1915 2155 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 1838 2050 50  0001 C CNN
+F 3 "~" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C14F6B5
+P 2300 2200
+F 0 "C?" H 2415 2246 50  0000 L CNN
+F 1 "C" H 2415 2155 50  0000 L CNN
+F 2 "SquantorRcl:C_0805" H 2338 2050 50  0001 C CNN
+F 3 "~" H 2300 2200 50  0001 C CNN
+	1    2300 2200
+	1    0    0    -1  
+$EndComp
+Text Label 1850 2000 0    50   ~ 0
+POWER_0
+$Comp
+L power:GND #PWR?
+U 1 1 5C14F709
+P 1850 2400
+F 0 "#PWR?" H 1850 2150 50  0001 C CNN
+F 1 "GND" V 1855 2272 50  0000 R CNN
+F 2 "" H 1850 2400 50  0001 C CNN
+F 3 "" H 1850 2400 50  0001 C CNN
+	1    1850 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14F726
+P 2350 2400
+F 0 "#PWR?" H 2350 2150 50  0001 C CNN
+F 1 "GND" V 2355 2272 50  0000 R CNN
+F 2 "" H 2350 2400 50  0001 C CNN
+F 3 "" H 2350 2400 50  0001 C CNN
+	1    2350 2400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1850 2400 1800 2400
+Wire Wire Line
+	1800 2400 1800 2350
+Wire Wire Line
+	2300 2350 2300 2400
+Wire Wire Line
+	2300 2400 2350 2400
+Text Label 2350 2000 0    50   ~ 0
+POWER_1
+Wire Wire Line
+	1800 2050 1800 2000
+Wire Wire Line
+	1800 2000 1850 2000
+Wire Wire Line
+	2300 2050 2300 2000
+Wire Wire Line
+	2300 2000 2350 2000
 $EndSCHEMATC
