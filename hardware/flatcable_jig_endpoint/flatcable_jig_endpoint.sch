@@ -36,40 +36,16 @@ F 3 "" H 850 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 5C14DC59
-P 950 1350
-F 0 "J1" H 870 1125 50  0000 C CNN
-F 1 "Conn_01x01" H 870 1216 50  0000 C CNN
-F 2 "" H 950 1350 50  0001 C CNN
-F 3 "~" H 950 1350 50  0001 C CNN
-	1    950  1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5C14DD34
-P 950 1750
-F 0 "J2" H 870 1525 50  0000 C CNN
-F 1 "Conn_01x01" H 870 1616 50  0000 C CNN
-F 2 "" H 950 1750 50  0001 C CNN
-F 3 "~" H 950 1750 50  0001 C CNN
-	1    950  1750
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5C14DD89
-P 1200 1350
-F 0 "#PWR0101" H 1200 1100 50  0001 C CNN
-F 1 "GND" V 1205 1222 50  0000 R CNN
-F 2 "" H 1200 1350 50  0001 C CNN
-F 3 "" H 1200 1350 50  0001 C CNN
-	1    1200 1350
+P 1450 1350
+F 0 "#PWR0101" H 1450 1100 50  0001 C CNN
+F 1 "GND" V 1455 1222 50  0000 R CNN
+F 2 "" H 1450 1350 50  0001 C CNN
+F 3 "" H 1450 1350 50  0001 C CNN
+	1    1450 1350
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1150 1350 1200 1350
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 5C14DEA6
@@ -184,9 +160,7 @@ Text Label 4850 1700 2    50   ~ 0
 POWER_0
 Text Label 4850 1800 2    50   ~ 0
 POWER_1
-Wire Wire Line
-	1150 1750 1200 1750
-Text Label 1200 1750 0    50   ~ 0
+Text Label 950  1350 2    50   ~ 0
 SIGNAL
 Text Label 1200 2100 0    50   ~ 0
 POWER_0
@@ -493,4 +467,19 @@ Wire Wire Line
 Wire Wire Line
 	3400 2950 3350 2950
 Connection ~ 3350 2950
+$Comp
+L SquantorConnectors:Coax J?
+U 1 1 5C16C2B5
+P 1200 1350
+F 0 "J?" H 1200 1687 60  0000 C CNN
+F 1 "Coax" H 1200 1581 60  0000 C CNN
+F 2 "SquantorConnectors:Conn_BNC_RightAngle_TH" H 1200 1350 60  0001 C CNN
+F 3 "" H 1200 1350 60  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1350 1000 1350
+Wire Wire Line
+	1400 1350 1450 1350
 $EndSCHEMATC
