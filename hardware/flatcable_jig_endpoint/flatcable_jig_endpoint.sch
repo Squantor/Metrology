@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:flatcable_jig_endpoint-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -18,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20181108" H 850 7700 60  0000 C CNN
+F 1 "20181216" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -468,10 +469,10 @@ Wire Wire Line
 	3400 2950 3350 2950
 Connection ~ 3350 2950
 $Comp
-L SquantorConnectors:Coax J?
+L SquantorConnectors:Coax J1
 U 1 1 5C16C2B5
 P 1200 1350
-F 0 "J?" H 1200 1687 60  0000 C CNN
+F 0 "J1" H 1200 1687 60  0000 C CNN
 F 1 "Coax" H 1200 1581 60  0000 C CNN
 F 2 "SquantorConnectors:Conn_BNC_RightAngle_TH" H 1200 1350 60  0001 C CNN
 F 3 "" H 1200 1350 60  0001 C CNN
