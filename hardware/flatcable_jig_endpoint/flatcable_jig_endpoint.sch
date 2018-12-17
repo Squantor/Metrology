@@ -19,7 +19,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "20181216" H 850 7700 60  0000 C CNN
+F 1 "20181217" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -109,38 +109,14 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5C14E4F7
-P 5450 2150
-F 0 "#PWR0104" H 5450 1900 50  0001 C CNN
-F 1 "GND" H 5455 1977 50  0000 C CNN
-F 2 "" H 5450 2150 50  0001 C CNN
-F 3 "" H 5450 2150 50  0001 C CNN
-	1    5450 2150
-	-1   0    0    -1  
+P 5950 1700
+F 0 "#PWR0104" H 5950 1450 50  0001 C CNN
+F 1 "GND" H 5955 1527 50  0000 C CNN
+F 2 "" H 5950 1700 50  0001 C CNN
+F 3 "" H 5950 1700 50  0001 C CNN
+	1    5950 1700
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5400 1700 5450 1700
-Wire Wire Line
-	5450 1700 5450 1800
-Wire Wire Line
-	5400 2100 5450 2100
-Connection ~ 5450 2100
-Wire Wire Line
-	5450 2100 5450 2150
-Wire Wire Line
-	5400 2000 5450 2000
-Connection ~ 5450 2000
-Wire Wire Line
-	5450 2000 5450 2100
-Wire Wire Line
-	5400 1900 5450 1900
-Connection ~ 5450 1900
-Wire Wire Line
-	5450 1900 5450 2000
-Wire Wire Line
-	5400 1800 5450 1800
-Connection ~ 5450 1800
-Wire Wire Line
-	5450 1800 5450 1900
 Wire Wire Line
 	4900 1700 4850 1700
 Wire Wire Line
@@ -483,4 +459,69 @@ Wire Wire Line
 	950  1350 1000 1350
 Wire Wire Line
 	1400 1350 1450 1350
+Wire Wire Line
+	5400 1800 5450 1800
+Wire Wire Line
+	5450 1800 5450 1700
+Wire Wire Line
+	5450 1700 5900 1700
+Wire Wire Line
+	5450 1700 5400 1700
+Connection ~ 5450 1700
+$Comp
+L SquantorSpecial:SolderJumper_2way_1conn SJ1
+U 1 1 5C18966E
+P 5650 1900
+F 0 "SJ1" H 5650 1900 50  0000 C CNN
+F 1 "SolderJumper_2way_1conn" H 5650 1400 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5650 1900 50  0001 C CNN
+F 3 "" H 5650 1900 50  0001 C CNN
+	1    5650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorSpecial:SolderJumper_2way_1conn SJ2
+U 1 1 5C1897A6
+P 5650 2000
+F 0 "SJ2" H 5650 2000 50  0000 C CNN
+F 1 "SolderJumper_2way_1conn" H 5700 1700 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5650 2000 50  0001 C CNN
+F 3 "" H 5650 2000 50  0001 C CNN
+	1    5650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorSpecial:SolderJumper_2way_1conn SJ3
+U 1 1 5C1897DC
+P 5650 2100
+F 0 "SJ3" H 5650 2100 50  0000 C CNN
+F 1 "SolderJumper_2way_1conn" H 5650 2000 50  0000 C CNN
+F 2 "SquantorSpecial:solder_jumper_2way_conn" H 5650 2100 50  0001 C CNN
+F 3 "" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1900 5900 1900
+Wire Wire Line
+	5900 1900 5900 1700
+Connection ~ 5900 1700
+Wire Wire Line
+	5900 1700 5950 1700
+Wire Wire Line
+	5850 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2000
+Connection ~ 5900 1900
+Wire Wire Line
+	5850 2000 5900 2000
+Connection ~ 5900 2000
+Wire Wire Line
+	5900 2000 5900 1900
+Wire Wire Line
+	5400 1900 5450 1900
+Wire Wire Line
+	5450 2000 5400 2000
+Wire Wire Line
+	5400 2100 5450 2100
 $EndSCHEMATC
