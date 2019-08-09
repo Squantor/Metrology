@@ -1,4 +1,8 @@
 *.bak
 *.kicad_pcb-bak
+*.sch-bak
 *.swp
 *.net
+*-cache
+*-cache.lib
+
