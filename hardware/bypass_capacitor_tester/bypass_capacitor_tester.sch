@@ -53,7 +53,7 @@ U 1 1 5DC20E46
 P 1050 850
 F 0 "J1" H 1250 950 60  0000 C CNN
 F 1 "Coax" H 1050 1081 60  0000 C CNN
-F 2 "SquantorConnectors:Conn_BNC_RightAngle_TH" H 1050 850 60  0001 C CNN
+F 2 "SquantorConnectors:SMA_edge_6mm2" H 1050 850 60  0001 C CNN
 F 3 "" H 1050 850 60  0001 C CNN
 	1    1050 850 
 	-1   0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5DC23260
 P 1050 1300
 F 0 "J2" H 1250 1400 60  0000 C CNN
 F 1 "Coax" H 1050 1531 60  0000 C CNN
-F 2 "SquantorConnectors:Conn_BNC_RightAngle_TH" H 1050 1300 60  0001 C CNN
+F 2 "SquantorConnectors:SMA_edge_6mm2" H 1050 1300 60  0001 C CNN
 F 3 "" H 1050 1300 60  0001 C CNN
 	1    1050 1300
 	-1   0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5DC23BC2
 P 1050 1750
 F 0 "J3" H 1250 1850 60  0000 C CNN
 F 1 "Coax" H 1050 1981 60  0000 C CNN
-F 2 "SquantorConnectors:Conn_BNC_RightAngle_TH" H 1050 1750 60  0001 C CNN
+F 2 "SquantorConnectors:SMA_edge_6mm2" H 1050 1750 60  0001 C CNN
 F 3 "" H 1050 1750 60  0001 C CNN
 	1    1050 1750
 	-1   0    0    -1  
