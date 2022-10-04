@@ -892,7 +892,7 @@
     (property "Reference" "N1" (id 0) (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "20220506" (id 1) (at 20.32 189.23 0)
+    (property "Value" "20221004" (id 1) (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (id 2) (at 26.67 189.23 0)
@@ -970,7 +970,7 @@
     (uuid 247d18a8-48ce-4e7f-9759-0eea4ad80e9a)
     (property "Reference" "J2" (id 0) (at 68.58 38.1 0))
     (property "Value" "Conn_02x04_Odd_Even" (id 1) (at 67.31 60.96 0))
-    (property "Footprint" "SquantorConnectors:Header-0127-2X04-EDGE" (id 2) (at 71.12 50.8 0)
+    (property "Footprint" "SquantorConnectors:Header-0127-2X08-EDGE" (id 2) (at 71.12 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 71.12 50.8 0)
@@ -1194,7 +1194,7 @@
     (uuid a72f7593-045b-4cee-9761-530bd4867197)
     (property "Reference" "J1" (id 0) (at 110.49 38.1 0))
     (property "Value" "Conn_02x04_Odd_Even" (id 1) (at 113.03 60.96 0))
-    (property "Footprint" "SquantorConnectors:Header-0127-2X04-EDGE" (id 2) (at 113.03 50.8 0)
+    (property "Footprint" "SquantorConnectors:Header-0127-2X08-EDGE" (id 2) (at 113.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 113.03 50.8 0)
@@ -1368,13 +1368,13 @@
       (reference "C8") (unit 1) (value "100p") (footprint "SquantorRcl:C_0402")
     )
     (path "/a72f7593-045b-4cee-9761-530bd4867197"
-      (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "SquantorConnectors:Header-0127-2X04-EDGE")
+      (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "SquantorConnectors:Header-0127-2X08-EDGE")
     )
     (path "/247d18a8-48ce-4e7f-9759-0eea4ad80e9a"
-      (reference "J2") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "SquantorConnectors:Header-0127-2X04-EDGE")
+      (reference "J2") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "SquantorConnectors:Header-0127-2X08-EDGE")
     )
     (path "/00000000-0000-0000-0000-00005ee12bf3"
-      (reference "N1") (unit 1) (value "20220506") (footprint "SquantorLabels:Label_Generic")
+      (reference "N1") (unit 1) (value "20221004") (footprint "SquantorLabels:Label_Generic")
     )
     (path "/00000000-0000-0000-0000-00005ee13678"
       (reference "N2") (unit 1) (value "OHWLOGO") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
