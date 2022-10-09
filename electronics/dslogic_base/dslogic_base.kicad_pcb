@@ -410,7 +410,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7e08f2a4-63d6-468b-bd8b-ec607077e023)
     )
-    (fp_text value "20220923" (at 0.8 0.1 90) (layer "B.SilkS")
+    (fp_text value "20221009" (at 0.8 0.1 90) (layer "B.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp b6bcc3cf-50de-4a33-bc41-678825c1ecf2)
     )
@@ -419,7 +419,7 @@
 
   (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "B.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005ee12086)
-    (at 166.1 84 90)
+    (at 165.6 84 90)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (property "Sheetfile" "dslogic_base.kicad_sch")
