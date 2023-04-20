@@ -459,17 +459,10 @@
           "/OUTPUT",
           "Net-(C2-Pad2)",
           "Net-(C3-Pad2)",
-          "Net-(J4-Pad1)",
           "Net-(R1-Pad2)",
           "Net-(R10-Pad2)",
           "Net-(R2-Pad2)",
-          "Net-(R7-Pad1)",
-          "Net-(R7-Pad2)",
-          "Net-(R9-Pad1)",
-          "Net-(RV2-Pad3)",
-          "Net-(U1-Pad1)",
-          "Net-(U1-Pad3)",
-          "Net-(U1-Pad8)"
+          "Net-(R7-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
