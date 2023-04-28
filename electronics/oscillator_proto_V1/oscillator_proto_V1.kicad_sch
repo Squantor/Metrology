@@ -2412,7 +2412,7 @@
     (property "Reference" "N1" (id 0) (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "20220423" (id 1) (at 20.32 189.23 0)
+    (property "Value" "20220428" (id 1) (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (id 2) (at 26.67 189.23 0)
@@ -2593,7 +2593,7 @@
   (symbol (lib_id "Device:R") (at 73.66 19.05 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 21f01333-f32c-4c7a-b25c-e4d5d4e4359a)
-    (property "Reference" "R?" (id 0) (at 77.47 17.78 90))
+    (property "Reference" "R22" (id 0) (at 77.47 17.78 90))
     (property "Value" "ADJ" (id 1) (at 73.66 19.05 90))
     (property "Footprint" "SquantorRcl:R_0805+0603" (id 2) (at 73.66 20.828 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2684,7 +2684,7 @@
     (in_bom yes) (on_board yes)
     (uuid 369ee294-bf66-474e-b6e0-37a03dbc4bc4)
     (property "Reference" "R9" (id 0) (at 69.85 22.86 90))
-    (property "Value" "15" (id 1) (at 66.04 24.13 90))
+    (property "Value" "18" (id 1) (at 66.04 24.13 90))
     (property "Footprint" "SquantorRcl:R_0805+0603" (id 2) (at 66.04 25.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2766,7 +2766,7 @@
     (in_bom yes) (on_board yes)
     (uuid 41b19e5e-9b4d-4860-bc3b-2d98ed830408)
     (property "Reference" "R11" (id 0) (at 77.47 22.86 90))
-    (property "Value" "3k" (id 1) (at 73.66 24.13 90))
+    (property "Value" "3K6" (id 1) (at 73.66 24.13 90))
     (property "Footprint" "SquantorRcl:R_0805+0603" (id 2) (at 73.66 25.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3929,7 +3929,7 @@
     (in_bom yes) (on_board yes)
     (uuid fec7fcce-e8cc-4643-8ba6-1f09123fcd4f)
     (property "Reference" "R12" (id 0) (at 85.09 22.86 90))
-    (property "Value" "3k" (id 1) (at 81.28 24.13 90))
+    (property "Value" "3K6" (id 1) (at 81.28 24.13 90))
     (property "Footprint" "SquantorRcl:R_0805+0603" (id 2) (at 81.28 25.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4135,7 +4135,7 @@
       (reference "J3") (unit 1) (value "Coax") (footprint "SquantorConnectors:Conn_BNC_RightAngle_TH")
     )
     (path "/00000000-0000-0000-0000-00005ee12bf3"
-      (reference "N1") (unit 1) (value "20220423") (footprint "SquantorLabels:Label_Generic")
+      (reference "N1") (unit 1) (value "20220428") (footprint "SquantorLabels:Label_Generic")
     )
     (path "/00000000-0000-0000-0000-00005ee13678"
       (reference "N2") (unit 1) (value "OHWLOGO") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
@@ -4168,16 +4168,16 @@
       (reference "R8") (unit 1) (value "C") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/369ee294-bf66-474e-b6e0-37a03dbc4bc4"
-      (reference "R9") (unit 1) (value "15") (footprint "SquantorRcl:R_0805+0603")
+      (reference "R9") (unit 1) (value "18") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/01f8a0e7-26a2-4326-b183-3820289b3c31"
       (reference "R10") (unit 1) (value "1M") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/41b19e5e-9b4d-4860-bc3b-2d98ed830408"
-      (reference "R11") (unit 1) (value "3k") (footprint "SquantorRcl:R_0805+0603")
+      (reference "R11") (unit 1) (value "3K6") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/fec7fcce-e8cc-4643-8ba6-1f09123fcd4f"
-      (reference "R12") (unit 1) (value "3k") (footprint "SquantorRcl:R_0805+0603")
+      (reference "R12") (unit 1) (value "3K6") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/c13e89fa-88d8-499c-b86a-4cbefd7d2011"
       (reference "R13") (unit 1) (value "510") (footprint "SquantorRcl:R_0805+0603")
@@ -4207,7 +4207,7 @@
       (reference "R21") (unit 1) (value "2K2") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/21f01333-f32c-4c7a-b25c-e4d5d4e4359a"
-      (reference "R?") (unit 1) (value "ADJ") (footprint "SquantorRcl:R_0805+0603")
+      (reference "R22") (unit 1) (value "ADJ") (footprint "SquantorRcl:R_0805+0603")
     )
     (path "/afdcc91f-3c54-4dc6-8d8a-38d6d5d4d261"
       (reference "RV1") (unit 1) (value "200") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
