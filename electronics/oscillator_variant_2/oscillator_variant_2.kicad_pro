@@ -397,7 +397,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "oscillator_variant_1.kicad_pro",
+    "filename": "oscillator_variant_2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -462,6 +462,10 @@
           "Net-(C10-Pad1)",
           "Net-(C10-Pad2)",
           "Net-(C11-Pad2)",
+          "Net-(C12-Pad1)",
+          "Net-(C12-Pad2)",
+          "Net-(C14-Pad1)",
+          "Net-(C14-Pad2)",
           "Net-(C4-Pad2)",
           "Net-(C6-Pad1)",
           "Net-(C7-Pad1)",
@@ -471,12 +475,12 @@
           "Net-(D1-Pad2)",
           "Net-(J3-Pad1)",
           "Net-(R10-Pad1)",
-          "Net-(R10-Pad2)",
+          "Net-(R11-Pad2)",
           "Net-(R13-Pad2)",
           "Net-(R14-Pad2)",
           "Net-(R19-Pad2)",
           "Net-(R3-Pad2)",
-          "Net-(R6-Pad1)",
+          "Net-(R8-Pad1)",
           "Net-(R9-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
