@@ -2687,7 +2687,7 @@
     (property "Reference" "N1" (id 0) (at 25.4 186.69 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "20220501" (id 1) (at 20.32 189.23 0)
+    (property "Value" "20220507" (id 1) (at 20.32 189.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (id 2) (at 26.67 189.23 0)
@@ -4361,7 +4361,7 @@
       (reference "J3") (unit 1) (value "Coax") (footprint "SquantorConnectors:Conn_BNC_RightAngle_TH")
     )
     (path "/00000000-0000-0000-0000-00005ee12bf3"
-      (reference "N1") (unit 1) (value "20220501") (footprint "SquantorLabels:Label_Generic")
+      (reference "N1") (unit 1) (value "20220507") (footprint "SquantorLabels:Label_Generic")
     )
     (path "/00000000-0000-0000-0000-00005ee13678"
       (reference "N2") (unit 1) (value "OHWLOGO") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
