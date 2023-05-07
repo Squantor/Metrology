@@ -475,12 +475,10 @@
           "Net-(D1-Pad2)",
           "Net-(J3-Pad1)",
           "Net-(R10-Pad1)",
-          "Net-(R11-Pad2)",
           "Net-(R13-Pad2)",
           "Net-(R14-Pad2)",
           "Net-(R19-Pad2)",
           "Net-(R3-Pad2)",
-          "Net-(R8-Pad1)",
           "Net-(R9-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
